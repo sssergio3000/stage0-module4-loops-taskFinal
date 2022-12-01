@@ -29,6 +29,6 @@ public class Pyramid {
 
     public static void main(String[] args) {
 
-        new Pyramid().printPyramid(8);
+        new Pyramid().printPyramid(10);
     }
 }

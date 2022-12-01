@@ -2,8 +2,8 @@ package school.mjc.stage0.loops.finalTask;
 
 public class HalfPyramid {
     public void printHalfPyramid(int cathetusLength) {
-        for (int i = 0; i < cathetusLength/2+1; i++) {
-            for (int j = cathetusLength/2+1; j>i+1; j--) {
+        for (int i = 0; i < cathetusLength; i++) {
+            for (int j = cathetusLength; j>i+1; j--) {
                 System.out.print(" ");
 
 
@@ -20,6 +20,6 @@ public class HalfPyramid {
     }
 
     public static void main(String[] args) {
-        new HalfPyramid().printHalfPyramid(10);
+        new HalfPyramid().printHalfPyramid(8);
     }
 }

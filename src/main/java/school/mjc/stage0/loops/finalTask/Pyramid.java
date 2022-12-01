@@ -3,8 +3,8 @@ package school.mjc.stage0.loops.finalTask;
 public class Pyramid {
     public void printPyramid(int cathetusLength) {
 
-            for (int i = 0; i < cathetusLength/2+1; i++) {
-                for (int j = cathetusLength/2+1; j>i+1; j--) {
+            for (int i = 0; i < cathetusLength; i++) {
+                for (int j = cathetusLength; j>i+1; j--) {
                     System.out.print(" ");
 
 
@@ -29,6 +29,6 @@ public class Pyramid {
 
     public static void main(String[] args) {
 
-        new Pyramid().printPyramid(10);
+        new Pyramid().printPyramid(9);
     }
 }
